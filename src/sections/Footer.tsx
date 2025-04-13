@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../public/assets/images/logo.svg";
 import Image from "next/image";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const Footer: React.FC<Props> = () => {

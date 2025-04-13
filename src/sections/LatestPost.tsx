@@ -4,6 +4,7 @@ import CutCornerButton from "@/components/CutCornerButton";
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useRef } from "react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const LatestPost: React.FC<Props> = () => {

@@ -10,6 +10,7 @@ import torus from "../../public/assets/images/torus.png";
 import { Circle } from "./Circle";
 import { motion, useScroll, useTransform } from "motion/react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const HeroSection: React.FC<Props> = () => {

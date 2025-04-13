@@ -7,6 +7,7 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { motion } from "motion/react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const testimonials = [

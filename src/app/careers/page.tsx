@@ -4,6 +4,7 @@ import InteriorHero from "@/components/InteriorHero";
 import React from "react";
 import { motion } from "motion/react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const page: React.FC<Props> = () => {

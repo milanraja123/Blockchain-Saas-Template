@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 export const Hexagon = (
   props: ComponentPropsWithoutRef<"svg"> & { size?: string }
 ) => {
-  const { className, size = 800 } = props;
+  const { className} = props;
   const pathRef = useRef<SVGPathElement>(null);
 
   // useLayoutEffect(() => {

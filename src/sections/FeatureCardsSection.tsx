@@ -8,6 +8,7 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import Card from "@/components/Card";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const cardData = [

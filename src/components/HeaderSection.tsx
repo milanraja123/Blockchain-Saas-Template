@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import logo from "../../public/assets/images/logo.svg";
-import cutCorner from "../../public/assets/images/cut-corner.svg";
 import Image from "next/image";
 import CutCornerButton from "./CutCornerButton";
 import { Hexagon } from "./Hexagon";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "motion/react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const navLink = [

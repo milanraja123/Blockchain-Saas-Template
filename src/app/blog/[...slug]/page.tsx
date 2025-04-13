@@ -1,6 +1,7 @@
 import React from "react";
 import InteriorHero from "../../../components/InteriorHero";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const page: React.FC<Props> = () => {

@@ -1,12 +1,13 @@
 "use client";
 import Card from "@/components/Card";
 import CutCornerButton from "@/components/CutCornerButton";
-import { Hexagon } from "@/components/Hexagon";
+
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import { motion } from "motion/react";
 import InteriorHero from "../../components/InteriorHero";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {};
 
 const page: React.FC<Props> = () => {
